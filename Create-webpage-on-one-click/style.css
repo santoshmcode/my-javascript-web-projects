@@ -1,0 +1,106 @@
+ @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Ubuntu", sans-serif;
+        }
+        html,
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .main1 {
+            background: #e3dadb;
+            width: 350px;
+            height: 260px;
+            margin: 25px 0 50px 0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .img1 {
+            width: 80px;
+            margin: 20px 0 15px 0;
+        }
+        .name1 {
+            font-size: 30px;
+            font-weight: 1000;
+            margin: 0 0 20px 0;
+            color: #010182;
+        }
+        .about1 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .main2 {
+            width: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 105px;
+        }
+        .img2 {
+            width: 85px;
+            margin: 20px 0 15px 0;
+        }
+        .main2 > div {
+            position: relative;
+            top: 0;
+            margin: 0 0 0 10px;
+            height: 100%;
+        }
+        .name2 {
+            color: #ce0108;
+            font-weight: bold;
+            font-size: 22px;
+            margin: 0 0 15px 15px;
+        }
+        .about2 {
+            font-weight: bold;
+            font-size: 13px;
+            margin: 0 0 0 15px;
+        }
+
+        .main3 {
+            background: #d35500;
+            width: 800px;
+            height: 100px;
+            margin: 60px;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+        .main3 > div {
+            width: 300px;
+        }
+        .name3 {
+            font-size: 20px;
+            font-weight: 500;
+            color: white;
+            padding: 10px 20px 10px 20px;
+        }
+        .about3 {
+            padding: 10px 20px 10px 20px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        #name3::after {
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 70px;
+            background: #000;
+            right: 50%;
+            top: 15px;
+        }
+        #name3-1,
+        #about3-1 {
+            text-align: end;
+        }
