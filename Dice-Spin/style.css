@@ -1,0 +1,60 @@
+ * {
+                padding: 0;
+                margin: 0;
+                font-family: "Aclonica", sans-serif;
+            }
+            body {
+                overflow: hidden;
+                background: rgb(196, 196, 196);
+            }
+            h1 {
+                text-align: center;
+                font-size: 3em;
+                margin-top: 0.5em;
+                color: #fff;
+                text-shadow: 2px 2px rgb(0, 0, 0);
+            }
+            .container {
+                width: 100%;
+                height: 80vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            #dice {
+                width: 200px;
+                height: 200px;
+                border: 3px solid #fff;
+                margin: -50px 0 50px 0;
+                overflow: hidden;
+                font-size: 450px;
+                border-radius: 50px;
+
+                color: #fff;
+                background: #D500FB;
+                box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+            }
+            #dice > p {
+                position: relative;
+                top: -227px;
+                left: -70px;
+            }
+            #btn {
+                width: 150px;
+                height: 40px;
+                font-size: 15px;
+                font-weight: bold;
+                background: #fff;
+                border: 1px solid blue;
+                color: blue;
+                border-radius: 50px;
+                cursor: pointer;
+                transition: all 0.1s ease;
+                box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+            }
+            #btn:active {
+                background: blue;
+                border: 1px solid #fff;
+                color: #fff;
+            }
