@@ -11,3 +11,7 @@ h1{
     text-align: center;
     margin: 2em 0 0.5em 0;
 }
+
+body{
+    background-image: linear-gradient(90deg, hsl(141,81%,76%),hsl(186,81%,76%),hsl(231,81%,76%),hsl(276,81%,76%),hsl(321,81%,76%),hsl(6,81%,76%),hsl(51,81%,76%),hsl(96,81%,76%));
+}
