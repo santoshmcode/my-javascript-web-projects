@@ -1,0 +1,36 @@
+#nav {
+    background: #e91220;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5em;
+    position: relative;
+}
+
+.nav-element {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 3em;
+    font-size: 1.5em;
+    font-weight: bolder;
+    transition: all 0.2s ease
+}
+
+.nav-element:hover{
+    color: #fff530;
+}
+
+#logo{
+    position: absolute;
+    width: 3.5em;
+    left: 1em;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.2s ease
+}
+#logo:hover{
+    border: 2px solid #fff530;
+}
+
+
