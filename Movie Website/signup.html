@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="icon" href="https://svgshare.com/i/ZBA.svg" type="image/icon type">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/form.css">
+</head>
+<body>
+    <nav id="nav">
+        <img src="https://svgshare.com/i/ZBA.svg" alt="logo" id="logo"/>
+        <div>
+            <a href="home.html" class="nav-element" id="nav-home">Home</a>
+        </div>
+        <div>
+            <a href="login.html" class="nav-element" id="nav-login">Login</a>
+        </div>
+        <div>
+            <a href="signup.html" class="nav-element" id="nav-signup">SignUp</a>
+        </div>
+    </nav>
+
+    <form id="signup-form">
+        <h1>Login To Your Account</h1>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+        <input type="number" name="number" id="number" placeholder="Contact Number" required>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        <input type="submit" value="SignUp" id="signup" onclick="addUser(event)">
+    </form>
+</body>
+</html>
+<script src="script/signup.js"></script>
